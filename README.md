@@ -231,19 +231,16 @@ If you use this code in your research, please cite:
 For the methodology, please also cite:
 
 ```bibtex
-@article{schmidt2019spectral,
-  title={Spectral proper orthogonal decomposition of spatio-temporal flow data},
-  author={Schmidt, Oliver T and Towne, Aaron and Rigas, Georgios and Colonius, Tim and Brès, Guillaume A},
-  journal={Journal of Fluid Mechanics},
-  volume={868},
-  pages={395--425},
+@article{schmidt2019efficient,
+  title={An efficient streaming algorithm for spectral proper orthogonal decomposition},
+  author={Schmidt, Oliver T and Towne, Aaron},
+  journal={Computer Physics Communications},
+  volume={237},
+  pages={98--109},
   year={2019},
-  publisher={Cambridge University Press}
+  publisher={Elsevier}
 }
 ```
-
-[1] Schmidt, O. T., Towne, A., Rigas, G., Colonius, T., & Brès, G. A. (2019). Spectral proper orthogonal decomposition of spatio-temporal flow data. Journal of Fluid Mechanics, 868, 395-425.
-
 
 ## Acknowledgments
 
