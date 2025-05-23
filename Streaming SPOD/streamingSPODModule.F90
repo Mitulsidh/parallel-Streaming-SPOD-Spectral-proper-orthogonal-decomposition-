@@ -635,12 +635,6 @@ Module streamingSPODModule
                                       end do
                                     end do
 
-                                    ! if (rank == 0) then
-                                    
-                                    !   print *, 'local_x_sum:', local_x_sum(1, 1), local_x_new(1, 1) , window(t_idx(1)), global_row_data(1)
-                                      
-                                    ! end if
-                                    
                                     call MatDenseRestoreArrayF90(x_new, local_x_new, ierr)
                                     call MatDenseRestoreArrayF90(X_sum_BlockA, local_x_sum, ierr)
                                     deallocate(global_row_data)
